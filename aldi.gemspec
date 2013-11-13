@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Aldi::VERSION
   spec.authors       = ["Rafael George"]
   spec.email         = ["george.rafael@gmail.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.description   = %q{Write a gem description}
+  spec.summary       = %q{Write a gem summary}
   spec.homepage      = ""
   spec.license       = "MIT"
 
@@ -23,4 +23,9 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "vcr"
   spec.add_development_dependency "webmock"
   spec.add_development_dependency "rake"
+  spec.add_development_dependency "pry-plus"
+
+  spec.add_dependency "faraday"
+  spec.add_dependency "nokogiri"
+  spec.add_dependency "mechanize"
 end
