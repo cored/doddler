@@ -18,7 +18,7 @@ module DeAldiFernbus
   end
 
   def self.station_name(returned_form)
-    returned_form 
+    returned_form.search("//table[@class='selection-connection']/td")
   end
 
 end
