@@ -1,4 +1,5 @@
 require 'mechanize'
+require 'logger'
 
 module DeAldiFernbus
 
@@ -10,7 +11,7 @@ module DeAldiFernbus
     end
 
     def perform
-      build_form.submit
+      build_form
     end
 
     def initialize(from, to, date)
@@ -39,6 +40,7 @@ module DeAldiFernbus
       form["rdate"]        = @params[:rdate]
       form["roundtrip"]    = 0
       form["mode"]         = "d"
+      require 'pry'; binding.pry  
       form
     end
 

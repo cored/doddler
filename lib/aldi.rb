@@ -8,11 +8,17 @@ end
 module DeAldiFernbus 
   
   def self.find(from, to, date)
-    submited = Crawler.for(from, to, date)
-    require 'pry'; binding.pry  
+    build_hash(Crawler.for(from, to, date))
   end
 
   def self.build_hash(returned_form)
+    [{
+      "departure_station" => station_name(returned_form)
+    }]
+  end
+
+  def self.station_name(returned_form)
+    returned_form 
   end
 
 end

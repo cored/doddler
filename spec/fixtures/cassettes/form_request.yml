@@ -1,0 +1,238 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://system04.derticketservice.de/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip,deflate,identity
+      Accept:
+      - '*/*'
+      User-Agent:
+      - Mechanize/2.7.2 Ruby/2.0.0p0 (http://github.com/sparklemotion/mechanize/)
+      Accept-Charset:
+      - ISO-8859-1,utf-8;q=0.7,*;q=0.7
+      Accept-Language:
+      - en-us,en;q=0.5
+      Host:
+      - system04.derticketservice.de
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - 300
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 13 Nov 2013 20:11:07 GMT
+      Server:
+      - Apache/2.2.15 (Red Hat)
+      Set-Cookie:
+      - DTS_LITION_SHOP=c%3D2%3Ba%3Dkol%3Bl%3Dde%3Br%3D; path=/; domain=system04.derticketservice.de;
+        httponly
+      - DTS_LITION_SID=c94d400136cba334ca63708d7d7bb7ed; path=/; secure; HttpOnly
+      Expires:
+      - Thu, 19 Nov 1981 08:52:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+      Pragma:
+      - no-cache
+      P3p:
+      - CP="ALL DSP NID CURa OUR LEG UNI"
+      Vary:
+      - Accept-Encoding,User-Agent
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '2176'
+      Keep-Alive:
+      - timeout=4, max=100
+      Connection:
+      - Keep-Alive
+      Content-Type:
+      - text/html; charset=utf-8
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        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
+        laBl7H6D/he8BSarmR4AAA==
+    http_version: 
+  recorded_at: Wed, 13 Nov 2013 20:09:35 GMT
+- request:
+    method: post
+    uri: https://system04.derticketservice.de/search
+    body:
+      encoding: UTF-8
+      string: hash=2467e6d25f05ed61aab6204d1275c2c9f052e229&departure=37&destination=40&ddate=01.12.2013&dtime=16%3A9&rdate=01.12.2013&rtime=00%3A00&roundtrip=0&mode=d&rebates%5BNorm%5D=1&rebates%5BErm%5D=0&mode=d
+    headers:
+      Accept-Encoding:
+      - gzip,deflate,identity
+      Accept:
+      - '*/*'
+      User-Agent:
+      - Mechanize/2.7.2 Ruby/2.0.0p0 (http://github.com/sparklemotion/mechanize/)
+      Accept-Charset:
+      - ISO-8859-1,utf-8;q=0.7,*;q=0.7
+      Accept-Language:
+      - en-us,en;q=0.5
+      Cookie:
+      - DTS_LITION_SHOP=c%3D2%3Ba%3Dkol%3Bl%3Dde%3Br%3D; DTS_LITION_SID=c94d400136cba334ca63708d7d7bb7ed
+      Host:
+      - system04.derticketservice.de
+      Referer:
+      - !ruby/object:URI::HTTPS
+        scheme: https
+        user: 
+        password: 
+        host: system04.derticketservice.de
+        port: 443
+        path: /
+        query: 
+        opaque: 
+        registry: 
+        fragment: 
+        parser: 
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Content-Length:
+      - '199'
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - 300
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 13 Nov 2013 20:11:08 GMT
+      Server:
+      - Apache/2.2.15 (Red Hat)
+      Expires:
+      - Thu, 19 Nov 1981 08:52:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+      Pragma:
+      - no-cache
+      P3p:
+      - CP="ALL DSP NID CURa OUR LEG UNI"
+      Vary:
+      - Accept-Encoding,User-Agent
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '2201'
+      Keep-Alive:
+      - timeout=4, max=100
+      Connection:
+      - Keep-Alive
+      Content-Type:
+      - text/html; charset=utf-8
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAA51Y3XLbNha+tp4CxXY8zoxJSk5ip7bEGcdWGidN0ond7naT
+        zA5EgiIiEmAAUIqc7dvsM/Sqd3mxPQegKEqx6zSesQ0e4Pzg/H7k8LvzV2dX
+        v/08Jrkti3jo/vZ2hjlnKf7/LgjITxdXF69ekvkg7IcHJCDn49dXF2fPx1eX
+        49e/XpyNw/Mx+bGcPCW75EyF5PmPJAiQt+SWkSRn2nA7orXNgkc07nlybm0V
+        8A+1mI/ov4JfToMzVVbMiknBKUmUtFwCz8V4xNMp309yrUo+GlASD62wBY8b
+        mwJykWtOfuV6ImRayymXw8ifGBZCzgjsZiMaJcZEE2Z4CAtKSp4KNqIm0ZxL
+        SjQv4MEuC25yzi0ldlnxEbX8o43c+UbWF+c6wt9/qLleRqZUyuaStxSvcFvg
+        pgFxrzeEpahs9+B7NmeeSonRCeh536rx/4JBeBQehKWQ4XtD42Hkj8ffKK0W
+        IPBReNAPk9pYVd4g+A7JcS+KMGN63++lKqlLiOG9UEMmLfeyWiZWKLl3j3zq
+        Efj5fo/+I02Z5fReiP8qkcy43vtEM6GNPWdLejzYp7jzROmSWXpM0zQsy3C5
+        pPvU5GrxuLZWyZ+Z5AU9trrm+xSSDVLgBaRPvkn6jTPdUgpl+BWYDiKfcG3F
+        FAQmtdZgbkN+ymswbJ9Wms8b0nWtd+u6LE6SGWxIIDYbCy4s1xRtXb5kJTf0
+        +A29VFJahoLRGLc4F1yahiasXagkRyoc5LqhP9Egy60uWelo79ZiXwjpJTuh
+        TqAT5YQ4ZsfXZbnMlbaNOd4Ub4c3wWv3ar1K5C3Ree09njFZMxT8hE+0X73Y
+        ZegGfQ3r00qLAmkMzXhWS/+vwBCd1lNIIxTMK8vLifPRq5lVfvVSzVfEc37t
+        lxvqW+PBBm9AR7nX3dXsFXu9XqlX51V5LagAM+cVeJJOXPrAhl800XzOCi5T
+        rsnbut/PDrNM8vWZi5JNORx6G4lyCn+gT5m3UcKKcCqyzVOvJDihSTioo3NM
+        9GPaT+nv9056+BtF2CR7bW19bc1apQqzWZY7O0PsbU07ws5qjqPILA24vf8g
+        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
+    http_version: 
+  recorded_at: Wed, 13 Nov 2013 20:09:37 GMT
+recorded_with: VCR 2.7.0
